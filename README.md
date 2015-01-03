@@ -37,3 +37,8 @@ If you are having issues or questions, or want to learn more, get in touch.
 We're @languagengine on Twitter, and #languagengine on IRC.
 
 However, be aware that the framework is provided as-is, with no guarantees.
+
+License
+-------
+
+The project is licensed under the MIT license.
