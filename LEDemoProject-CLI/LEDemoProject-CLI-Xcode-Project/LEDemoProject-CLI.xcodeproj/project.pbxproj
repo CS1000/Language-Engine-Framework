@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585B104219ECF5F500957DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B104119ECF5F500957DB0 /* main.m */; };
+		585B104519ECF5F500957DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B104419ECF5F500957DB0 /* AppDelegate.m */; };
+		585B104719ECF5F600957DB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585B104619ECF5F600957DB0 /* Images.xcassets */; };
+		585B104A19ECF5F600957DB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585B104819ECF5F600957DB0 /* MainMenu.xib */; };
+		585B105619ECF5F700957DB0 /* LEDemoProject_CLITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B105519ECF5F700957DB0 /* LEDemoProject_CLITests.m */; };
+		585B106119ECF6B900957DB0 /* FSPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B106019ECF6B900957DB0 /* FSPlugin.m */; };
+		58FEA1951A58D4F300083D34 /* LanguageEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FEA1941A58D4F200083D34 /* LanguageEngine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585B105019ECF5F700957DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585B103419ECF5F500957DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585B103B19ECF5F500957DB0;
+			remoteInfo = "LEDemoProject-CLI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		585B106419ECFA5300957DB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		585B103C19ECF5F500957DB0 /* LEDemoProject-CLI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LEDemoProject-CLI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B104019ECF5F500957DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585B104119ECF5F500957DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		585B104319ECF5F500957DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		585B104419ECF5F500957DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		585B104619ECF5F600957DB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		585B104919ECF5F600957DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		585B104F19ECF5F700957DB0 /* LEDemoProject-CLITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LEDemoProject-CLITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B105419ECF5F700957DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585B105519ECF5F700957DB0 /* LEDemoProject_CLITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDemoProject_CLITests.m; sourceTree = "<group>"; };
+		585B105F19ECF6B900957DB0 /* FSPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPlugin.h; sourceTree = "<group>"; };
+		585B106019ECF6B900957DB0 /* FSPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPlugin.m; sourceTree = "<group>"; };
+		58FEA1941A58D4F200083D34 /* LanguageEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LanguageEngine.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585B103919ECF5F500957DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FEA1951A58D4F300083D34 /* LanguageEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B104C19ECF5F700957DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585B103319ECF5F500957DB0 = {
+			isa = PBXGroup;
+			children = (
+				585B103E19ECF5F500957DB0 /* LEDemoProject-CLI */,
+				585B105219ECF5F700957DB0 /* LEDemoProject-CLITests */,
+				585B103D19ECF5F500957DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		585B103D19ECF5F500957DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585B103C19ECF5F500957DB0 /* LEDemoProject-CLI.app */,
+				585B104F19ECF5F700957DB0 /* LEDemoProject-CLITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585B103E19ECF5F500957DB0 /* LEDemoProject-CLI */ = {
+			isa = PBXGroup;
+			children = (
+				58FEA1941A58D4F200083D34 /* LanguageEngine.framework */,
+				585B104319ECF5F500957DB0 /* AppDelegate.h */,
+				585B104419ECF5F500957DB0 /* AppDelegate.m */,
+				585B104619ECF5F600957DB0 /* Images.xcassets */,
+				585B104819ECF5F600957DB0 /* MainMenu.xib */,
+				585B103F19ECF5F500957DB0 /* Supporting Files */,
+				585B105F19ECF6B900957DB0 /* FSPlugin.h */,
+				585B106019ECF6B900957DB0 /* FSPlugin.m */,
+			);
+			path = "LEDemoProject-CLI";
+			sourceTree = "<group>";
+		};
+		585B103F19ECF5F500957DB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				585B104019ECF5F500957DB0 /* Info.plist */,
+				585B104119ECF5F500957DB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		585B105219ECF5F700957DB0 /* LEDemoProject-CLITests */ = {
+			isa = PBXGroup;
+			children = (
+				585B105519ECF5F700957DB0 /* LEDemoProject_CLITests.m */,
+				585B105319ECF5F700957DB0 /* Supporting Files */,
+			);
+			path = "LEDemoProject-CLITests";
+			sourceTree = "<group>";
+		};
+		585B105319ECF5F700957DB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				585B105419ECF5F700957DB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585B103B19ECF5F500957DB0 /* LEDemoProject-CLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585B105919ECF5F700957DB0 /* Build configuration list for PBXNativeTarget "LEDemoProject-CLI" */;
+			buildPhases = (
+				585B103819ECF5F500957DB0 /* Sources */,
+				585B103919ECF5F500957DB0 /* Frameworks */,
+				585B103A19ECF5F500957DB0 /* Resources */,
+				585B106419ECFA5300957DB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LEDemoProject-CLI";
+			productName = "LEDemoProject-CLI";
+			productReference = 585B103C19ECF5F500957DB0 /* LEDemoProject-CLI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585B104E19ECF5F700957DB0 /* LEDemoProject-CLITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585B105C19ECF5F700957DB0 /* Build configuration list for PBXNativeTarget "LEDemoProject-CLITests" */;
+			buildPhases = (
+				585B104B19ECF5F700957DB0 /* Sources */,
+				585B104C19ECF5F700957DB0 /* Frameworks */,
+				585B104D19ECF5F700957DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585B105119ECF5F700957DB0 /* PBXTargetDependency */,
+			);
+			name = "LEDemoProject-CLITests";
+			productName = "LEDemoProject-CLITests";
+			productReference = 585B104F19ECF5F700957DB0 /* LEDemoProject-CLITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585B103419ECF5F500957DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Language Engine";
+				TargetAttributes = {
+					585B103B19ECF5F500957DB0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					585B104E19ECF5F700957DB0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 585B103B19ECF5F500957DB0;
+					};
+				};
+			};
+			buildConfigurationList = 585B103719ECF5F500957DB0 /* Build configuration list for PBXProject "LEDemoProject-CLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585B103319ECF5F500957DB0;
+			productRefGroup = 585B103D19ECF5F500957DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585B103B19ECF5F500957DB0 /* LEDemoProject-CLI */,
+				585B104E19ECF5F700957DB0 /* LEDemoProject-CLITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585B103A19ECF5F500957DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585B104719ECF5F600957DB0 /* Images.xcassets in Resources */,
+				585B104A19ECF5F600957DB0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B104D19ECF5F700957DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585B103819ECF5F500957DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585B106119ECF6B900957DB0 /* FSPlugin.m in Sources */,
+				585B104519ECF5F500957DB0 /* AppDelegate.m in Sources */,
+				585B104219ECF5F500957DB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B104B19ECF5F700957DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585B105619ECF5F700957DB0 /* LEDemoProject_CLITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585B105119ECF5F700957DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585B103B19ECF5F500957DB0 /* LEDemoProject-CLI */;
+			targetProxy = 585B105019ECF5F700957DB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		585B104819ECF5F600957DB0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585B104919ECF5F600957DB0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585B105719ECF5F700957DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		585B105819ECF5F700957DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		585B105A19ECF5F700957DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LEDemoProject-CLI",
+				);
+				INFOPLIST_FILE = "LEDemoProject-CLI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		585B105B19ECF5F700957DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LEDemoProject-CLI",
+				);
+				INFOPLIST_FILE = "LEDemoProject-CLI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		585B105D19ECF5F700957DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LEDemoProject-CLITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDemoProject-CLI.app/Contents/MacOS/LEDemoProject-CLI";
+			};
+			name = Debug;
+		};
+		585B105E19ECF5F700957DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LEDemoProject-CLITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDemoProject-CLI.app/Contents/MacOS/LEDemoProject-CLI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585B103719ECF5F500957DB0 /* Build configuration list for PBXProject "LEDemoProject-CLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B105719ECF5F700957DB0 /* Debug */,
+				585B105819ECF5F700957DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585B105919ECF5F700957DB0 /* Build configuration list for PBXNativeTarget "LEDemoProject-CLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B105A19ECF5F700957DB0 /* Debug */,
+				585B105B19ECF5F700957DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585B105C19ECF5F700957DB0 /* Build configuration list for PBXNativeTarget "LEDemoProject-CLITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B105D19ECF5F700957DB0 /* Debug */,
+				585B105E19ECF5F700957DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585B103419ECF5F500957DB0 /* Project object */;
+}
